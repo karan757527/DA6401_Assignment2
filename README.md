@@ -100,18 +100,6 @@ PARAMS = {
 }
 ```
 
-## Flowchart (Part A)
-
-```mermaid
-graph TD
-    A[Start] --> B[Load Config/Args]
-    B --> C[Load Dataset]
-    C --> D[Build Custom CNN]
-    D --> E[Train Model]
-    E --> F[Evaluate on Validation Set]
-    F --> G[Log to WandB]
-    G --> H[Save Model and Plots]
-```
 
 ## Installation
 
